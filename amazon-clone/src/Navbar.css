@@ -1,0 +1,41 @@
+.footbar{
+     
+    background-color: #232F3E;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    position: sticky;
+     
+}
+
+.footbar--hamIcon{
+color: white;
+padding-left: 5px;
+}
+
+
+
+.footbar--option{
+    color: white;
+    align-items: center;
+    padding: 5px 7px 5px 9px;
+    
+    justify-content: space-between;
+    display: inline-flexbox;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.option--logo{
+    font-size:x-small;
+    margin-right: 5px;
+    margin-left: -7px;
+    padding-left: 0px;
+    padding: 8px 5px 5px 3px;
+
+}
+
+.footbar__navlogo{
+    object-fit: contain;
+    padding-left: 30px;
+}

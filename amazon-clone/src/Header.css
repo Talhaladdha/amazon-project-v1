@@ -1,0 +1,128 @@
+
+
+
+
+.header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header--logo{
+    height: 100px;
+    width: 100px;
+    margin: 0 20px;
+    margin-top: 18px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.header--location{
+    color: white;
+    align-items: center;
+    display: flex;
+    margin-top: 7px;
+}
+
+.header--optionlocationline{
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.header--search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+
+
+.header--categories{
+    width: 60px;
+    height: 34px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border-radius: 5px 0px 0px 5px;
+    text-align-last: center;
+    border: none;
+    margin-left: 15px;
+}
+
+.header--searchInput{
+    margin-left: 1px;
+    padding: 10px;
+    height: 14px;
+    border: none;
+    width: 80%;
+}
+
+.header--searchIcon{
+    background-color: #FEBD69 ;
+    padding: 5.4px;
+    height: 36px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.header--nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header--option{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+   
+}
+.header--optionflag{
+    height: 17px;
+    justify-content: center;
+   margin-top: 5px;
+   margin-left: 20px;
+   width: 22px;
+}
+.flag--option{
+    width: 1px;
+    height: 1px;
+    margin-top: 35px;
+    background-color: white;
+    padding-left: 1px;
+    padding-right: 1px;
+   
+}
+
+.header--arrowIcon{
+color:lightgray;
+margin-top: 10px;
+padding-left: 0px;
+}
+.header--optionLineOne{
+    font-size: 13px;
+}
+
+.header--optionLineTwo{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.header--optionBasket{
+    color: white;
+    align-items:center ;
+    display: flex;
+    
+}
+
+.header--basketCount{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
