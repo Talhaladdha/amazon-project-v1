@@ -3,7 +3,7 @@
 
 
 .header{
-    background-color: black;
+    background-color:#131921 ;
     display: flex;
     align-items: center;
     height: 60px;
@@ -83,20 +83,34 @@
     
    
 }
-.header--optionflag{
-    height: 17px;
-    justify-content: center;
-   margin-top: 5px;
-   margin-left: 20px;
-   width: 22px;
-}
+
+
 .flag--option{
-    width: 1px;
-    height: 1px;
-    margin-top: 35px;
+    width: 28px;
+    height: 18px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border-radius: 5px 0px px 0px;
+    text-align-last: center;
+    border: none;
+    margin-left: 15px;
+    background-color:#131921;
+    padding: 8px 12px ; 
+    appearance: none;
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    background:  url('https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg') repeat-x 0 0;
+    padding:4px;
+line-height: 9px;
+border: 1px solid black;
+background-size: 28px;
+background-position-y: -2px;
+ background-position-x: 55px;
+ 
+}
+
+.flag--option option{
     background-color: white;
-    padding-left: 1px;
-    padding-right: 1px;
    
 }
 
