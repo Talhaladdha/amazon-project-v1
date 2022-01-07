@@ -5,8 +5,10 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';                       
 import { Link } from 'react-router-dom';
+import { useStateValue } from './StateProvider';
 
 function Header() {
+  const [{cart,user}, dispatch] = useStateValue();
     return (
         <div className="header">
 
@@ -46,11 +48,11 @@ function Header() {
           <input className="header--searchInput" type="text" />
           <SearchIcon className="header--searchIcon" />
 
-          <img className="header--optionflag" src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/255px-Flag_of_India.svg.png" alt="flag"/>
+          
 
           <div >
             <select className="flag--option">
-           <option value=""> . </option>
+           <option value="">  </option>
            <option value="">⚪ENGlISH</option>
            <option value="">⚪HINDI</option>
            <option value="">⚪MARATHI</option>
@@ -63,18 +65,22 @@ function Header() {
             </select>
           </div>
 
-          < ArrowDropDownIcon className="header--arrowIcon" />
+          
           
           </div>  
 
           <div className="header--nav">
-
-           
+            <Link to = '/login' >
 
             <div className="header--option">
             <span className="header--optionLineOne">Hello Guest</span>
-            <span className="header--optionLineTwo"> Sign In</span>
+            <span className="header--optionLineTwo">{user ? 'Sign Out' : 'Sign In'}</span>
             </div>
+
+            </Link >
+
+
+            
 
 
             <div className="header--option">
@@ -94,7 +100,7 @@ function Header() {
 
           <div className="header--optionBasket">
           <ShoppingCartIcon />
-          <span className="header--optionLineTwo header--basketCount"> 0</span>
+          <span className="header--optionLineTwo header--basketCount">{cart.length}</span>
            </div>
 
            </Link>
