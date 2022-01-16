@@ -39,7 +39,7 @@ function Header() {
           <select className="header--categories">
             <option value=""> All </option>
             <option value="">Action</option>
-            <option value="">Shooffting</option>
+            <option value="">Shooting</option>
             <option value="">BattelGround</option>
             <option value="">OpenWorld</option>
             <option value="">Racing</option>
