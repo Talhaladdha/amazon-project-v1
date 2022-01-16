@@ -8,25 +8,29 @@
 
 .login--logo{
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: -25px;
     object-fit: contain;
-    width: 100px;
+    height: 223px;
+    width: 250px;
     margin-left: auto;
     margin-right: auto;
 }
+
 
 .login--container{
     width: 300px;
     height: fit-content;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    border: 1px solid yellow;
     padding: 20px;
+    color: whitesmoke;
 }
 
 .login--container h1{
     font-weight: 500;
     margin-bottom: 20px;
+    color: white;
 
 }
 

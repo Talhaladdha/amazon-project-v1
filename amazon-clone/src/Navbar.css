@@ -1,10 +1,11 @@
 .footbar{
      
-    background-color: #232F3E;
+    background-color: #1F1F1F;
     display: flex;
     align-items: center;
     height: 40px;
     position: sticky;
+    border: 5px solid #391e30;
      
 }
 

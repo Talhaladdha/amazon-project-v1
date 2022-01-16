@@ -20,23 +20,23 @@ function Product({ id, title, price, image }) {
    }
     return (
         <div className="product">
-            <div className="product--info">
+        <div className="product--info">
 
-                <img className="product--image" src={image} alt="" />
-                <p>{title}</p>
+            <img className="product--image" src={image} alt="" />
+            <p>{title}</p>
 
-                <p className="product--price">
-                    <bold>₹</bold>
-                    <strong>{price}</strong>
+            <p className="product--price">
+                <bold>₹</bold>
+                <strong>{price}</strong>
 
-                </p>
-
-            </div>
-
-            <button className="product--button" onClick = {addToCart} >Add to Cart</button>  
+            </p>
 
         </div>
-    )
+
+        <button className="product--button" onClick = {addToCart} >Add to Cart</button>  
+
+    </div>
+)
 }
 
 export default Product

@@ -8,30 +8,30 @@ function Navbar() {
         <div className="footbar">
             <MenuIcon className="footbar--hamIcon" />
              <span className="footbar--option">  </span>
-            <span className="footbar--option"> All   </span>
-            <span className="footbar--option">Mobiles   </span>
-            <span className="footbar--option"> Best Sellers  </span>
-            <span className="footbar--option">Fashion </span>
-            <span className="footbar--option">Customer Service </span>
-            <span className="footbar--option"> Prime   
+            <span className="footbar--option"> HOME   </span>
+            <span className="footbar--option">  REVIEWS </span>
+            <span className="footbar--option"> GAMES </span>
+            <span className="footbar--option">NEWS </span>
+            <span className="footbar--option">VIDEOS</span>
+            <span className="footbar--option"> GALLERY 
             </span>
             <span className="option--logo"> 🔻  
             </span>
-            <span className="footbar--option">Electronics
+            <span className="footbar--option">NEW RELEASES
             </span>
-            <span className="footbar--option"> Today's Deal
+            <span className="footbar--option"> TODAY'S DEAL
             </span>
-            <span className="footbar--option"> Amazon pay
+            <span className="footbar--option"> BLOG
             </span>
-            <span className="footbar--option"> Computer
+            <span className="footbar--option"> LATEST TOPICS
             </span>
-            <span className="footbar--option"> New Releases
+            <span className="footbar--option"> TOP GAMES
             </span>
-            <span className="footbar--option"> Home&Kitchen
+            <span className="footbar--option"> TOP STORIES
             </span>
-            <span className="footbar--option"> Books
+            <span className="footbar--option"> CONTACTS
             </span>
-            <img className="footbar__navlogo" src=     "https://images-eu.ssl-images-amazon.com/images/G/31/IN-hq/2021/img/Mobile_Traffic_/XCM_Manual_1321458_1651511_IN_3781247_400x39_en_IN._CB655944656_.jpg" alt="amazon"/>
+            {/* <img className="footbar__navlogo" src=     "https://images-eu.ssl-images-amazon.com/images/G/31/IN-hq/2021/img/Mobile_Traffic_/XCM_Manual_1321458_1651511_IN_3781247_400x39_en_IN._CB655944656_.jpg" alt="amazon"/> */}
 
             
         </div>
