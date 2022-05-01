@@ -26,10 +26,10 @@ function Home() {
 
                         {/* slide image start */}
                         <div className="slide first">
-                        <img  src="https://wallpapercave.com/wp/wp6072778.png" alt="" />
+                        <img  src="https://images2.alphacoders.com/112/1128856.jpg" alt="" />
                         </div>
                         <div className="slide">
-                        <img  src="https://wallpapercave.com/wp/wp4892943.jpg" alt="" />
+                        <img  src="https://cdn.mos.cms.futurecdn.net/vgJvyCPYewT95iwEUwd6DT.jpg" alt="" />
                         </div>
                         <div className="slide">
                         <img  src="https://wallpapercave.com/wp/wp6072795.jpg" alt="" />

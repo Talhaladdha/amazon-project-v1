@@ -54,7 +54,7 @@ function Header() {
 
         </div>
 
-        <input className="header--searchInput" type="text" />
+        <input className="header--searchInput" type="text" placeholder='Search....'/>
         <SearchIcon className="header--searchIcon" />
 
 

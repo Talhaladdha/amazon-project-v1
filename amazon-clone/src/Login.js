@@ -44,17 +44,17 @@ function Login() {
             <div className='login--container'>
                 <h1>Sign-In</h1>
                 <form>
-                    <h6>E-mail or Phone Number</h6>
+                    <h6>E-mail </h6>
                     <input type='text' value={email} onChange={e => setEmail(e.target.value)}  />
                     <h6>Password</h6>
                     <input type='password' value={password} onChange={e => setPassword(e.target.value)}/>
                     <button type='submit' onClick={signIn} className='login--signin'>Sign In</button>
                 </form>
                 <p>
-               <h6> By continuing, you agree to Amazon's Conditions of Use and Privacy Notice, our Cookies Notice and our Interest-Based Ads Notice.</h6>
-               <h7>-------------New to Amazon ? -------------</h7>
+               <h6> By continuing, you agree to Our Site Conditions of Use and Privacy Notice, our Cookies Notice and our Interest-Based Ads Notice.</h6>
+               <h7>-----------New to our Website ? -----------</h7>
                 </p>
-                <button type='submit' onClick={register} className='login--create'>Create your Amazon Account</button>
+                <button type='submit' onClick={register} className='login--create'>Create your New Account</button>
             </div>
         </div>
     )
